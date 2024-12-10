@@ -1,13 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ac;
 
-/**
- *
- * @author LEGION
- */
 public class AcBeraksi {
     public static void main(String[] args) {
         Ac acku  = new Ac();
@@ -18,7 +9,12 @@ public class AcBeraksi {
         acku.matikan();
         acku.hidupkan();
         acku.hidupkan();
+        
         System.out.println("\nStatus dingin ac saat ini : Panas");
+        acku.dinginkan();
         acku.panaskan();
+        acku.panaskan();
+        acku.dinginkan();
+        acku.dinginkan();
     }
 }
